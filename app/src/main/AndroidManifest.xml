@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.quintus.labs.datingapp">
+    package="com.balazs.app.dating">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -25,29 +25,29 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Introduction.IntroductionMain">
+        <activity android:name="com.balazs.app.dating.Introduction.IntroductionMain">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Login.Login" />
+        <activity android:name="com.balazs.app.dating.Login.Login" />
 
-        <activity android:name=".Login.RegisterBasicInfo" />
-        <activity android:name=".Matched.Matched_Activity" />
-        <activity android:name=".Profile.Profile_Activity" />
-        <activity android:name=".Main.ProfileCheckinMain" />
-        <activity android:name=".Matched.ProfileCheckinMatched" />
-        <activity android:name=".Profile.EditProfileActivity" />
-        <activity android:name=".Main.MainActivity" />
-        <activity android:name=".Login.RegisterGender" />
-        <activity android:name=".Login.RegisterGenderPrefection" />
-        <activity android:name=".Login.RegisterAge" />
-        <activity android:name=".Login.RegisterHobby" />
-        <activity android:name=".Profile.SettingsActivity" />
-        <activity android:name=".Main.BtnLikeActivity" />
-        <activity android:name=".Main.BtnDislikeActivity"></activity>
+        <activity android:name="com.balazs.app.dating.Login.RegisterBasicInfo" />
+        <activity android:name="com.balazs.app.dating.Matched.Matched_Activity" />
+        <activity android:name="com.balazs.app.dating.Profile.Profile_Activity" />
+        <activity android:name="com.balazs.app.dating.Main.ProfileCheckinMain" />
+        <activity android:name="com.balazs.app.dating.Matched.ProfileCheckinMatched" />
+        <activity android:name="com.balazs.app.dating.Profile.EditProfileActivity" />
+        <activity android:name="com.balazs.app.dating.Main.MainActivity" />
+        <activity android:name="com.balazs.app.dating.Login.RegisterGender" />
+        <activity android:name="com.balazs.app.dating.Login.RegisterGenderPrefection" />
+        <activity android:name="com.balazs.app.dating.Login.RegisterAge" />
+        <activity android:name="com.balazs.app.dating.Login.RegisterHobby" />
+        <activity android:name="com.balazs.app.dating.Profile.SettingsActivity" />
+        <activity android:name="com.balazs.app.dating.Main.BtnLikeActivity" />
+        <activity android:name="com.balazs.app.dating.Main.BtnDislikeActivity"></activity>
     </application>
 
 </manifest>
