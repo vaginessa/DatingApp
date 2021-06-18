@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "519508117643",
+    "project_id": "datingapp-e06d9",
+    "storage_bucket": "datingapp-e06d9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:519508117643:android:df6f719a6e6c70fc072c8e",
+        "android_client_info": {
+          "package_name": "com.balazs.app.dating"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "519508117643-14n3f4e56mh4s60fo9sq04h78q429ru1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTe866Ktk1cpdsd-iKWeGASBfrnbT9PN4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "519508117643-14n3f4e56mh4s60fo9sq04h78q429ru1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
