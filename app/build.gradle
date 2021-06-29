@@ -6,7 +6,7 @@ android {
     compileSdkVersion 30
     defaultConfig {
         applicationId "com.balazs.app.dating"
-        minSdkVersion 17
+        minSdkVersion 26
         targetSdkVersion 30
         versionCode 1
         versionName "1.1"
@@ -17,6 +17,10 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
+    }
+    compileOptions {
+        targetCompatibility = "8"
+        sourceCompatibility = "8"
     }
 }
 
